@@ -9,7 +9,7 @@ public class Matrix {
     
     public Matrix(int dim) {
         values = new int[dim][dim];
-        for (int i = 0; i < 0; i++) {
+        for (int i = 0; i < dim; i++) {
             values[i] = new int[dim];
             for (int j = 0; j < dim; j++) {
                 values[i][j] = 0;
